@@ -1,7 +1,6 @@
 {
-  "include": ["*/scriptlets/**/*"],
+  "include": ["."],
   "compilerOptions": {
-    "strict": true,
     "target": "ESNext",
     "module": "Preserve",
     "skipLibCheck": true,
@@ -12,7 +11,7 @@
     "useDefineForClassFields": false,
     "moduleDetection": "force",
     "paths": {
-      "~/*": ["../*"]
+      "~/*": ["../../*"]
     }
   }
 }

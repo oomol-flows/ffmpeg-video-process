@@ -1,0 +1,19 @@
+inputs_def:
+  - handle: ffmpeg_source
+    description: Input
+    json_schema:
+      contentMediaType: oomol/var
+    value: input value
+outputs_def:
+  - handle: ffmpeg_source
+    description: Output
+    json_schema:
+      contentMediaType: oomol/var
+icon: ":fa6-solid:fire:currentColor:"
+ui:
+  default_width: 530
+executor:
+  name: nodejs
+  options:
+    spawn: false
+    entry: main.ts

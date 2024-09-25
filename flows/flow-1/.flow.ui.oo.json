@@ -79,6 +79,16 @@
       },
       "width": 434,
       "height": 299
+    },
+    {
+      "id": "nvidia_acceleration#1",
+      "contentWidth": 530,
+      "position": {
+        "x": 190.25776008507648,
+        "y": 836.1811899254736
+      },
+      "width": 544,
+      "height": 239
     }
   ],
   "edges": [

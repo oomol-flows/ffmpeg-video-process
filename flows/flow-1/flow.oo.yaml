@@ -50,3 +50,5 @@ nodes:
         value: /oomol-storage
       - handle: url
         value: https://oomol-flows.oss-cn-hangzhou.aliyuncs.com/1723956987_oomol_test.mp4
+  - task: self::nvidia_acceleration
+    node_id: nvidia_acceleration#1
