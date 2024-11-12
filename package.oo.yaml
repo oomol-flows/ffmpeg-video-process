@@ -1,0 +1,12 @@
+icon: https://oomol-flows.oss-cn-hangzhou.aliyuncs.com/1723876312_ffmpeg-video-process-v1.png
+scripts:
+  # Script executed when the container is first loaded
+  # eg: bootstrap: pip install pandas
+  bootstrap: |
+    pnpm install
+    pip install -r requirements.txt 
+    wget -P /root https://static.oomol.com/containers-resource/ffmpeg.tar.xz
+    tar -xf /root/ffmpeg.tar.xz -C /root
+    ls /root/ffmpeg_bin
+    mv /root/ffmpeg_bin/ffmpeg /bin
+    mv /root/ffmpeg_bin/ffprobe /bin
